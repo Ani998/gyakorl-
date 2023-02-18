@@ -30,4 +30,20 @@ print(str(a))
 print(str(b))'''
 
 
+numbers = [43, 23, 2, 5, 645]
+numbers.sort()
+print(numbers[1:3])
 
+a = 3
+b = 3
+
+if a != b:
+    print("not equal")
+elif a == b:
+    print("It is equal")
+else:
+    print("We don't know")
+
+numbers = [1,2,3,4,5,6,7,8,9,10]
+for num in numbers[::2]:
+    print(num, end='-')
