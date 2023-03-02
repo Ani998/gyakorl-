@@ -45,6 +45,8 @@ b.clear()
 b.send_keys('')
 calc_btn.click()
 
+time.sleep(2)
+
 result = browser.find_element(By.ID, 'result').text
 assert result == 'NaN'
 time.sleep(2)
